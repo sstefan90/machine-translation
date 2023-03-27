@@ -1,4 +1,4 @@
-# Machine Translation - Englgish -> Italian
+# Machine Translation - English -> Italian
 This Project contains a truncated implementation of the architecture in the Attention Is All You Need paper. The number of encoder and decoder stacks has been reduced from 6, the number presented in the original paper, to 3. Likewise, there are only 3 multihead attention heads present in this implementation, as opposed to the 8 in the paper. The model was truncated in order to train it on a local desktop in a reasonable amount of time. 
 The model was trained on transcripts from the Italian parliament and US Congress.
 
